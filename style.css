@@ -78,10 +78,10 @@ hr{
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
-#collapseOne
+/* #collapseOne
 {
   padding: 0 !important;
-}
+} */
 .accordion-body{
   font-size: 10px;
 }
@@ -93,9 +93,6 @@ hr{
   height: 70vh !important;
 }
 
-#carouselExampleCaptions{
-  height: 50% !important;
-}
 .navbar-toggler{
   margin-right: 20px!important;
   transition: transform 0.3s ease-in-out;
@@ -103,18 +100,22 @@ hr{
 .navbar-brand{
   margin-left: 20px !important;
 }
-.carousel-item img {
-  height: auto;
+#carouselExampleCaptions {
+  height: 40vh; /* Set a fixed height for the carousel */
 }
-
-.image {
-  height: auto;
-  width: 100%;
-  margin-top: 10vh;
+.carousel-item img {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
 }
 .accordion-collapse
 {
   transition: height 0.8s ease;
+}
+#about,
+.Portfolio {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 }
 
